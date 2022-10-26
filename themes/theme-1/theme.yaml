@@ -1,0 +1,41 @@
+name: 'Theme 1'
+description: 'This a temporary dynamic app'
+author: zakir7dipu
+homepage: zakir7dipu.com
+code: ''
+
+form:
+  fields:
+    site_name:
+      label: Site name
+      default: COMING SOON
+    logo:
+      label: Logo
+      type: mediafinder
+      mode: image
+      imageWidth: 140
+      imageHeight: 50
+    icon:
+      label: Icon
+      type: mediafinder
+      mode: image
+      imageWidth: 32
+      imageHeight: 32
+    site_background:
+      label: Site Background
+      type: mediafinder
+      mode: image
+      imageWidth: 1900
+      imageHeight: 900
+    site_title:
+      label: Site Title
+      type: text
+      default: COMING SOON
+    site_sub_title:
+      label: Site Sub Title
+      type: text
+      default: Our website is under construction, follow us for update now!
+    days:
+      label: Start Date (Year - month - date)
+      type: text
+      default: '2022-12-31'
